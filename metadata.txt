@@ -1,0 +1,29 @@
+[general]
+name=Reproject Shapefile
+qgisMinimumVersion=3.0
+description=Chuyển đổi hệ tọa độ cho các lớp dữ liệu Shapefile
+version=1.0.0
+author=Ikienkinzero
+email=buidinhhuy900@example.com
+
+about=Plugin cho phép chuyển đổi hệ tọa độ của các lớp dữ liệu Shapefile từ hệ tọa độ hiện hữu sang hệ tọa độ mới. Hỗ trợ các hệ tọa độ phổ biến như WGS 84, UTM, VN-2000.
+
+tracker=https://github.com/dinhhuy-project/ReprojectShapefile/issues
+repository=https://github.com/dinhhuy-project/ReprojectShapefile
+
+changelog=
+    1.0.0 - Phiên bản đầu tiên
+        - Chuyển đổi hệ tọa độ Shapefile
+        - Hỗ trợ các hệ tọa độ phổ biến
+        - Giao diện thân thiện người dùng
+
+tags=coordinate,transformation,shapefile,CRS,VN2000,UTM,reprojection
+
+homepage=https://github.com/dinhhuy-project/ReprojectShapefile
+category=Vector
+icon=icon.jpg
+
+experimental=False
+deprecated=False
+
+hasProcessingProvider=no
