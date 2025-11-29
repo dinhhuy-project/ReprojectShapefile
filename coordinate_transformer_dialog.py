@@ -42,6 +42,19 @@ class CoordinateTransformerDialog(QDialog):
             ("EPSG:9213", "VN-2000 / TM-3 106-30"),
             ("EPSG:9214", "VN-2000 / TM-3 107-00"),
             ("EPSG:9215", "VN-2000 / TM-3 107-30"),
+            
+            ("EPSG:4269", "NAD83 (North American Datum 1983)"),
+            ("EPSG:4322", "WGS 72"),
+            ("EPSG:4283", "GDA94 (Geocentric Datum Australia 1994)"),
+            ("EPSG:4301", "Tokyo 97 (Japan)"),
+            ("EPSG:4230", "ED50 (European Datum 1950)"),
+            ("EPSG:4258", "ETRS89 (Europe)"),
+            
+            ("EPSG:26948", "NAD83 / UTM zone 48N"),
+            ("EPSG:26949", "NAD83 / UTM zone 49N"),
+            ("EPSG:32248", "WGS 72 / UTM zone 48N"),
+            ("EPSG:32249", "WGS 72 / UTM zone 49N"),
+            ("EPSG:28348", "GDA94 / MGA zone 48"),
         ]
 
     def setup_ui(self):
